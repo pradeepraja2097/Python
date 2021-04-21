@@ -1,2 +1,1 @@
-msg="good Morning"
-print(msg.upper())
+    for i in range(size):
