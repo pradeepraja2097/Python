@@ -24,3 +24,11 @@ labels=['a','b','c','d','e']
 
 dataframe2=pd.DataFrame(Data,index=labels)
 print(dataframe2)
+#Dateframe filter by head and tail function
+print(dataframe2.head(1))
+
+print(dataframe2.tail(3))
+
+print(Data.values())
+
+print(dataframe2.sort_values(by='age'))
