@@ -1,5 +1,7 @@
 import pandas as pd 
 import numpy as np 
+import matplotlib.pyplot as plt
+
 
 #DataFrame inrandon format
 
@@ -32,3 +34,29 @@ print(dataframe2.tail(3))
 print(Data.values())
 
 print(dataframe2.sort_values(by='age'))
+
+print(dataframe2[1:3])
+
+print(dataframe2[['age','visit']])
+
+dataframe3=dataframe2.copy()
+print(dataframe3)
+
+print(dataframe3.mean())
+
+print(dataframe3.sum())
+
+#dataframe3.to_csv('test.csv')
+
+dataframe4=pd.read_csv('test.csv')
+
+print(dataframe4.head(2))
+
+graph=pd.Series(np.random.randn(50),index=pd.date_range('today',periods=50))
+graph=graph.cumsum()
+graph.plot()
+
+plt.show()
+
+
+
