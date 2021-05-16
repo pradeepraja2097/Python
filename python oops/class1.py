@@ -8,8 +8,6 @@ class Demo:   # created class name called demo
         c=a+b+self.d-self.e# performing addition operations
         #print(c) #Pinting the operations that performed
         return c # we  can access outside of the function
-
-
 obj=Demo()    #created object name("obj" we can give any thing) is equal to demo
 ans=obj.example(10,35) # Outside funcrions called here
 print(ans)
