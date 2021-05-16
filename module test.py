@@ -1,3 +1,0 @@
-import add
-
-print(add)
