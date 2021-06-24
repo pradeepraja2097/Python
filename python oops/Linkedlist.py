@@ -1,5 +1,5 @@
 
-#reffered in amulyas academy youtube vedio
+#reffered in amulyas academy youtube vedio 
 class Node: 
     def __init__(self,data):# Creating Node ,(Node contains data and reference)
         self.data=data
